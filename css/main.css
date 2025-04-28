@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    
+  }
+  
+
+  
+ h1, h2, h3 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal !important;
+  }
+  
+  .form-container {
+    border: 2px solid #ccc !important; /* 2px border around the entire form */
+    border-radius: 15px !important; /* Rounded corners for a softer look */
+    padding: 20px !important; /* Adds space inside the form */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important; /* Adds a slight shadow around the form */
+  }
+  .border-container {
+    border: 2px solid #ccc !important; /* 2px border around the entire container */
+    border-radius: 15px !important; /* Rounded corners */
+    padding: 20px !important; /* Adds space inside the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important; /* Adds shadow around the container */
+  }
+    
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.5) !important; /* black with 50% opacity */
+    z-index: 1 !important;
+  }
+  
+  .overlay-text {
+    z-index: 2 !important; /* text appears above the dark overlay */
+    padding: 20px 10px !important;
+  }
+  
+  .overlay-text h1 {
+    color: #fff !important; /* white text */
+    font-size: 3rem !important; /* large size for desktop */
+    font-weight: bold !important;
+    margin: 0 !important;
+  }
+  
+  /* Responsive font size for smaller screens */
+  @media (max-width: 768px) {
+    .overlay-text h1 {
+      font-size: 1.5rem !important; /* smaller size for mobile */
+    }
+  }
+  
+  .header-h3{
+    color: #fff !important;
+  }
+
+
+  General Social Icons Styles
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+  }
+  
+  /* General Social Icons Styles */
+.social-icons a {
+    font-size: 24px !important; /* Default icon size */
+    text-decoration: none !important;
+}
+
+/* Original Icon Colors */
+.social-icons a.facebook {
+    color: #3b5998 !important; /* Facebook blue */
+}
+
+.social-icons a.twitter {
+    color: #e43244 !important; /* Twitter blue */
+}
+
+.social-icons a.instagram {
+    color: #E1306C !important; /* Instagram pink */
+}
+
+.social-icons a.linkedin {
+    color: #0077B5 !important; /* LinkedIn blue */
+}
+
+/* Hover effect */
+.social-icons a:hover {
+    opacity: 0.8 !important; /* Slightly transparent when hovered */
+    transition: opacity 0.3s ease !important;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 767px) {
+    .social-icons a {
+        font-size: 18px !important; /* Smaller icon size on mobile */
+    }
+}
+
+/* Responsive Design for Tablet and Above */
+@media (min-width: 768px) {
+    /* Additional styles for tablet/desktop can be added here */
+}
+
+
+
+
+
+
+
+
+  
+  /* main.css */
+
+/* Remove margin and padding for the .box class */
+.box {
+    width: 100%;
+    min-height: 500px; /* Ensure minimum height is 500px */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  /* Ensure background images scale well */
+  .image-box-1, .image-box-2 {
+    background-size: cover;
+    background-position: center;
+    height: 100%;  /* Allow image to fill the box fully */
+    width: 100%;
+  }
+  
+  /* Add images to the boxes */
+  .image-box-1 {
+    background-image: url('https://th.bing.com/th/id/R.57d7c7a4b85df0b89799d4d409648e2f?rik=yUk8ZH98r0eEEQ&riu=http%3a%2f%2fwww.shawtruckinginc.com%2fwp-content%2fuploads%2f2015%2f11%2fCJ.02.10.2015.6.jpg&ehk=hleNCqf3xmavc3Pu6f80%2f1yr4sf1nxItFcdeFO%2bfRJI%3d&risl=&pid=ImgRaw&r=0');
+  }
+  
+  .image-box-2 {
+    background-image: url('https://th.bing.com/th/id/R.57d7c7a4b85df0b89799d4d409648e2f?rik=yUk8ZH98r0eEEQ&riu=http%3a%2f%2fwww.shawtruckinginc.com%2fwp-content%2fuploads%2f2015%2f11%2fCJ.02.10.2015.6.jpg&ehk=hleNCqf3xmavc3Pu6f80%2f1yr4sf1nxItFcdeFO%2bfRJI%3d&risl=&pid=ImgRaw&r=0');
+  }
+  
+  /* Content box styling with padding for text readability */
+  .content-box {
+    padding: 30px;
+    background-color: #f8f9fa;
+    min-height: 500px; /* Ensure content box has the same minimum height */
+  }
+  
+  /* Remove margins and paddings from Bootstrap grid system */
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .row .col-12, .row .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  /* Ensure columns stack properly on mobile */
+  @media (max-width: 767px) {
+    .col-12 {
+      padding: 0; /* Remove any padding to make it full width */
+    }
+  
+    .box {
+      height: auto; /* Allow boxes to adjust to content on mobile */
+      min-height: 300px; /* Reduce minimum height on mobile for better fit */
+    }
+  
+    .content-box {
+      min-height: auto; /* Let content box adjust to text on mobile */
+    }
+  }
+  
