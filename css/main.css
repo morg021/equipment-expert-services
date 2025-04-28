@@ -106,8 +106,6 @@ body {
 
 
 
-
-
   
   /* main.css */
 
@@ -133,8 +131,10 @@ body {
   }
   
   .image-box-2 {
-    background-image: url('https://th.bing.com/th/id/R.57d7c7a4b85df0b89799d4d409648e2f?rik=yUk8ZH98r0eEEQ&riu=http%3a%2f%2fwww.shawtruckinginc.com%2fwp-content%2fuploads%2f2015%2f11%2fCJ.02.10.2015.6.jpg&ehk=hleNCqf3xmavc3Pu6f80%2f1yr4sf1nxItFcdeFO%2bfRJI%3d&risl=&pid=ImgRaw&r=0');
+    background-image: url('https://th.bing.com/th/id/R.d0cdea721d89e8cdd74197e6dce11a19?rik=wnz5gZzvKVq2JA&riu=http%3a%2f%2fcliparts.co%2fcliparts%2f6Tr%2f5GX%2f6Tr5GX6pc.jpg&ehk=1a8rrZK93oJXrPvdcq3e0JhaMUcIPZ4WmfTfE46RM4I%3d&risl=&pid=ImgRaw&r=0');
+   
   }
+  
   
   /* Content box styling with padding for text readability */
   .content-box {
