@@ -171,3 +171,11 @@ body {
     }
   }
   
+  a.email-link {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+  a.email-link:hover {
+    text-decoration: underline !important;
+  }
