@@ -65,3 +65,19 @@ document.querySelector("form").addEventListener("submit", function(event) {
         alert("Oops! There was a problem submitting your form.");
     });
 });
+
+// script.js
+function updateDateTime() {
+    const now = new Date();
+    const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+    const date = now.toLocaleDateString('en-US', options);
+    const time = now.toLocaleTimeString('en-US');
+  
+    // Update the content in the time-date div
+    document.getElementById('date-time').textContent = `${date}, ${time}`;
+  }
+  
+  // Update time and date every second
+  setInterval(updateDateTime, 1000);
+  updateDateTime(); // Initial call to set the time/date immediately
+  
